@@ -31,10 +31,10 @@ let timeLeft = 60;
 
 function preload() {
   this.load.image('background', 'assets/bg_kid_friendly.jpg');
-  this.load.image('tree', 'assets/tree.jpg');
-  this.load.image('player1', 'assets/player1.jpg');
-  this.load.image('player2', 'assets/player2.jpg');
-  this.load.image('oxygen', 'assets/oxygen.jpg');
+  this.load.image('tree', 'assets/tree.png');
+  this.load.image('player1', 'assets/player1.png');
+  this.load.image('player2', 'assets/player2.png');
+  this.load.image('oxygen', 'assets/oxygen.png');
   this.load.audio('oxygenSound', 'assets/sfx/oxygen.mp3');
   this.load.audio('co2Sound', 'assets/sfx/co2.mp3');
 }
